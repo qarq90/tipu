@@ -10,7 +10,7 @@ export function Stamp({
     return (
         <>
             <section
-                className={`bebas-neue inline-block uppercase text-7xl opacity-75 tracking-widest rounded-sm text-center my-8 border-2 text-red-500 border-red-500 p-4 shadow-md ${tiltClass}`}
+                className={`bebas-neue inline-block uppercase text-7xl opacity-75 tracking-widest rounded-sm text-center my-8 border-3 text-red-500 border-red-500 p-4 shadow-md ${tiltClass}`}
             >
                 {children}
             </section>

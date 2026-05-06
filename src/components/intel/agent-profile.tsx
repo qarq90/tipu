@@ -6,7 +6,7 @@ import { agentDetails } from "@/data/intel-data";
 
 export function AgentProfile() {
     return (
-        <section className="relative flex flex-col items-center my-12">
+        <section className="relative flex flex-col items-center my-4">
             <div className="flex flex-row w-full gap-8 max-w-5xl">
                 <div className="w-[40%] flex justify-center">
                     <Image

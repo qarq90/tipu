@@ -34,7 +34,7 @@ export function AgencySeal() {
                 </svg>
 
                 <Image
-                    src="/imgs/logo_stroke.png"
+                    src="/imgs/cover/logo_stroke.png"
                     alt="CIA Logo Stroke"
                     width={200}
                     height={200}
@@ -42,7 +42,7 @@ export function AgencySeal() {
                     loading="eager"
                 />
                 <Image
-                    src="/imgs/pfp_without_bg.png?v=2"
+                    src="/imgs/cover/pfp_without_bg.png?v=2"
                     alt="CIA Logo"
                     width={200}
                     height={200}

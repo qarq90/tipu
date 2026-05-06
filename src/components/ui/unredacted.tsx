@@ -2,9 +2,12 @@
 
 import { useEffect, useState } from "react";
 
-export function Unredacted({
-    children,
-}: Readonly<{ children: React.ReactNode }>) {
+interface UnredactedProps {
+    children: React.ReactNode;
+    className?: string;
+}
+
+export function Unredacted({ children, className }: UnredactedProps) {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -13,8 +16,13 @@ export function Unredacted({
 
     const text = String(children || "");
 
+    const mergedClassName = [
+        "opacity-85 uppercase",
+        className
+    ].filter(Boolean).join(" ");
+
     return (
-        <span className="opacity-85 uppercase">
+        <span className={mergedClassName}>
             <span
                 style={{
                     backgroundImage:
