@@ -41,7 +41,9 @@ export function ArchivesHeader() {
             </div>
 
             <div className="flex flex-col gap-4 border border-foreground p-4 px-2 mb-4">
-                <Unredacted className="text-2xl">MISSION BRIEFING:</Unredacted>
+                <Unredacted className="text-2xl tracking-widest">
+                    MISSION BRIEFING:
+                </Unredacted>
                 <Unredacted>
                     The following documents contain classified information
                     regarding development operations conducted by Agent
