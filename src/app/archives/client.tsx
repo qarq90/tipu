@@ -1,4 +1,4 @@
-"use client";;
+"use client";
 import { ArchivesGrid } from "@/components/archives/archives-grid";
 import { ArchivesHeader } from "@/components/archives/header";
 import { PageLayout } from "@/components/layouts/page-layout";
@@ -14,7 +14,6 @@ export default function Client() {
             <ArchivesHeader />
             <ArchivesGrid />
             <Quotes quotes={archivesQuotes} />
-            
         </PageLayout>
     );
 }

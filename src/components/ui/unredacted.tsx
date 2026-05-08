@@ -16,10 +16,9 @@ export function Unredacted({ children, className }: UnredactedProps) {
 
     const text = String(children || "");
 
-    const mergedClassName = [
-        "opacity-85 uppercase",
-        className
-    ].filter(Boolean).join(" ");
+    const mergedClassName = ["opacity-85 uppercase", className]
+        .filter(Boolean)
+        .join(" ");
 
     return (
         <span className={mergedClassName}>

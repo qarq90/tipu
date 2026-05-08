@@ -4,6 +4,5 @@ export interface ArchivedProject {
     img: string;
     link: string;
     isRedacted: boolean;
-    redactionLength: number; 
-    redactedFields?: ('name' | 'desc' | 'img')[]; 
+    redactionLength: number;
 }

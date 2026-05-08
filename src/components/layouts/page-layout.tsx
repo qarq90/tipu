@@ -30,8 +30,8 @@ export function PageLayout({
         <main className="h-full max-w-5xl flex flex-row courier-new">
             <main className="h-full max-w-4xl w-4xl flex flex-row gap-4 courier-new">
                 <div className="flex flex-row gap-1.5">
-                    <div className="w-1 bg-foreground opacity-75" />
-                    <div className="w-1 bg-foreground opacity-50" />
+                    <div className="w-1 bg-redaction opacity-75" />
+                    <div className="w-1 bg-redaction opacity-95" />
                 </div>
                 <div className="flex-1 flex flex-col gap-4 py-4 px-2">
                     {children}
@@ -41,8 +41,8 @@ export function PageLayout({
                     </div>
                 </div>
                 <div className="flex flex-row gap-1.5">
-                    <div className="w-1 bg-foreground opacity-65" />
-                    <div className="w-1 bg-foreground opacity-75" />
+                    <div className="w-1 bg-redaction opacity-75" />
+                    <div className="w-1 bg-redaction opacity-95" />
                 </div>
             </main>
             <Navbar />

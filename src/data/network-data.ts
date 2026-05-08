@@ -1,5 +1,5 @@
 import { Quote } from "@/types/quote";
-import { FaGithub, FaLinkedin, FaLock, FaEyeSlash, FaUserSecret, FaQuestionCircle } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLock } from "react-icons/fa";
 import { FaDiscord, FaReddit } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 
@@ -55,8 +55,8 @@ export const networkChannels = [
     },
     {
         name: "Discord",
-        desc: "DM for secure classified channel access.",
-        url: "https://github.com/abdurrahmanq",
+        desc: "Contactfor secure classified channel access.",
+        url: "https://discord.com/users/1454681391479390258",
         icon: FaDiscord,
         isRedacted: false,
     },

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function AgencySeal() {
     return (
-        <section className="relative flex flex-col items-center my-12 opacity-75">
+        <section className="relative flex flex-col items-center my-12 opacity-95">
             <div className="relative w-[280px] h-[280px]">
                 <svg className="absolute inset-0 w-full h-full">
                     <defs>
@@ -39,7 +39,6 @@ export function AgencySeal() {
                     width={200}
                     height={200}
                     className="absolute inset-0 m-auto z-10"
-                    loading="eager"
                 />
                 <Image
                     src="/imgs/cover/pfp_without_bg.png?v=2"
@@ -47,7 +46,6 @@ export function AgencySeal() {
                     width={200}
                     height={200}
                     className="absolute inset-0 m-auto z-0"
-                    loading="eager"
                 />
             </div>
         </section>

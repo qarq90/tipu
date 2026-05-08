@@ -3,7 +3,7 @@ import { Unredacted } from "../ui/unredacted";
 export function NetworkHeader() {
     return (
         <>
-           <div className="flex flex-col gap-4 text-center my-4">
+            <div className="flex flex-col gap-4 text-center my-4">
                 <Unredacted>
                     Region: UNKNOWN - Last ping: South Asia Node
                 </Unredacted>
@@ -23,7 +23,8 @@ export function NetworkHeader() {
 
             <div className="flex flex-col text-center my-4">
                 <Unredacted>
-                   Final secure channels for operative contact — monitored and time-sensitive.
+                    Final secure channels for operative contact — monitored and
+                    time-sensitive.
                 </Unredacted>
             </div>
         </>

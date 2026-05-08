@@ -3,19 +3,19 @@ import { Unredacted } from "../ui/unredacted";
 
 export function Channels() {
     return (
-        <section className="grid gap-4 grid-cols-2">
-            {networkChannels.map((c, i) => (
+        <section className="grid gap-4 grid-cols-2 my-4">
+            {networkChannels.map((c, i) =>
                 c.isRedacted ? (
                     <div
                         key={i}
-                        className="bg-foreground/95 flex items-center gap-4 p-4 border border-dashed cursor-not-allowed"
+                        className="flex items-center gap-4 p-4 border border-dashed cursor-not-allowed"
                     >
-                        <c.icon size={64} className="text-background" />
+                        <c.icon size={64} className="text-redaction/95" />
                         <div className="flex-col flex">
-                            <div className="bg-background/95 text-foreground text-center tracking-widest h-6 w-32 flex items-center justify-center">
+                            <div className="bg-redaction/95 text-background text-center tracking-widest h-6 w-32 flex items-center justify-center">
                                 [REDACTED]
                             </div>
-                            <div className="bg-background/95 text-foreground text-center tracking-widest h-4 w-48 flex items-center justify-center mt-1">
+                            <div className="bg-redaction/95 text-background text-center tracking-widest h-4 w-48 flex items-center justify-center mt-1">
                                 [ACCESS DENIED]
                             </div>
                         </div>
@@ -30,12 +30,14 @@ export function Channels() {
                     >
                         <c.icon size={64} />
                         <div className="flex-col flex">
-                            <Unredacted className="text-xl">{c.name}</Unredacted>
+                            <Unredacted className="text-xl">
+                                {c.name}
+                            </Unredacted>
                             <Unredacted>{c.desc}</Unredacted>
                         </div>
                     </a>
-                )
-            ))}
+                ),
+            )}
         </section>
     );
 }

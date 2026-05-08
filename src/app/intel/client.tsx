@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { AgentDossier } from "@/components/intel/agent-dossier";
 import { AgentProfile } from "@/components/intel/agent-profile";
@@ -15,7 +15,6 @@ export default function Client() {
             <AgentProfile />
             <AgentDossier />
             <Quotes quotes={intelQuotes} />
-            
         </PageLayout>
     );
 }

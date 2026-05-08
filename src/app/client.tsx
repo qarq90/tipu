@@ -1,4 +1,4 @@
-"use client";;
+"use client";
 import { AgencySeal } from "@/components/cover/agency-seal";
 import { ConverInfo } from "@/components/cover/conver-info";
 import { PageLayout } from "@/components/layouts/page-layout";

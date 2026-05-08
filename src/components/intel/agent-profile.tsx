@@ -3,6 +3,7 @@ import { Redacted } from "../ui/redacted";
 import { Unredacted } from "../ui/unredacted";
 import Image from "next/image";
 import { agentDetails } from "@/data/intel-data";
+import mugshot from "../../../public/intel/mugshot.png";
 
 export function AgentProfile() {
     return (
@@ -10,12 +11,11 @@ export function AgentProfile() {
             <div className="flex flex-row w-full gap-8 max-w-5xl">
                 <div className="w-[40%] flex justify-center">
                     <Image
-                        src="/imgs/intel/qarq90 - Passport Pic (Edited).png?v=2"
-                        alt="Intel"
+                        src={mugshot}
+                        alt="mugshot"
                         width={400}
                         height={400}
                         className="grayscale opacity-80 w-full h-auto"
-                        loading="eager"
                     />
                 </div>
 
