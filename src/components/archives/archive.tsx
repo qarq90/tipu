@@ -19,6 +19,7 @@ export function Archive({ project }: { project: ArchivedProject }) {
                         alt="archive-ss"
                         fill
                         className="object-cover grayscale"
+                        loading="eager"
                     />
                 </div>
             )}

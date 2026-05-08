@@ -10,11 +10,12 @@ export function AgentProfile() {
             <div className="flex flex-row w-full gap-8 max-w-5xl">
                 <div className="w-[40%] flex justify-center">
                     <Image
-                        src="/imgs/qarq90 - Passport Pic (Edited).png"
+                        src="/imgs/intel/qarq90 - Passport Pic (Edited).png?v=2"
                         alt="Intel"
                         width={400}
                         height={400}
                         className="grayscale opacity-80 w-full h-auto"
+                        loading="eager"
                     />
                 </div>
 
