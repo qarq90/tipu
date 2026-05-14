@@ -25,7 +25,7 @@ export function AgencySeal() {
                         <textPath
                             href="#circlePath"
                             startOffset="0%"
-                            className="text-xl tracking-wider"
+                            className="text-xl tracking-wider cursor-not-allowed"
                         >
                             &nbsp;&nbsp;&nbsp;CREATIVE INTERFACE AGENCY
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ACCESS LEVEL: ██████

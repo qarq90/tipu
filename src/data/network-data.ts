@@ -68,8 +68,8 @@ export const networkQuotes: Quote[] = [
         by: "Joker",
     },
     {
-        quote: "If I were two-faced, would I be wearing this one?",
-        by: "Abraham Lincoln",
+        quote: "Do not wait for leaders; do it alone, person to person.",
+        by: "Mother Teresa", 
     },
     {
         quote: "I've been waiting for you. Have you come to end my suffering?",

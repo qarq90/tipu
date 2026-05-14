@@ -78,7 +78,7 @@ export const dossierSections: DossierSection[] = [
         textA: 'The agent operating under the alias "qarq90" is a',
         redactionLengthA: 192,
         textB: " and a highly specialized digital operative with core expertise in web design",
-        redactionLengthB: 254,
+        redactionLengthB: 250,
         textC: " user interface development, and the orchestration of critical front-end architecture.",
     },
     {
@@ -94,34 +94,34 @@ export const dossierSections: DossierSection[] = [
         textA: "Known for exceptional design instinct,",
         redactionLengthA: 217,
         textB: " precise execution, and the ability to craft purpose-driven digital frameworks,",
-        redactionLengthB: 180,
+        redactionLengthB: 165,
         textC: " Every build is scoped and deployed like a precision operation but engineered for fluidity, scalability,",
         redactionLengthC: 171,
         textD: " and seamless functionality.",
     },
     {
         textA: "Proficiency includes deep experience in",
-        redactionLengthA: 253,
+        redactionLengthA: 256,
         textB: " UX architecture, adaptive front-end engineering, and dynamic component systems.",
     },
     {
         textA: "Reports reveal objective of this agent are",
         redactionLengthA: 151,
-        textB: " creating advanced web technologies throu   gh craft and with precise digital designs, sleek and refined.",
+        textB: " creating advanced web technologies through craft and with precise digital designs, sleek and refined.",
     },
 ];
 
 export const intelQuotes: Quote[] = [
     {
-        quote: "The right man in the wrong place can make all the difference in the world.",
-        by: "G-Man",
+        quote: "If I were two-faced, would I be wearing this one?",
+        by: "Abraham Lincoln",
     },
     {
         quote: "I wish I had acquired wisdom at less of a price.",
         by: "Hosea Matthews",
     },
     {
-        quote: "Knowing yourself is the beginning of all wisdom.",
-        by: "Aristotle",
+        quote: "You are not the only one cursed with knowledge.",
+        by: "Thanos",
     },
 ];

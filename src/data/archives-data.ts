@@ -54,6 +54,10 @@ export const archivedProjects: ArchivedProject[] = [
 
 export const archivesQuotes: Quote[] = [
     {
+        quote: "A Man's dream, never ends.",
+        by: "Marshell D. Teach",
+    },
+    {
         quote: "Veni, vidi, vici. (I came, I saw, I conquered)",
         by: "Julius Caesar",
     },
@@ -61,8 +65,5 @@ export const archivesQuotes: Quote[] = [
         quote: "The more things change, the more they stay the same.",
         by: "General Shepherd",
     },
-    {
-        quote: "You are not the only one cursed with knowledge.",
-        by: "Thanos",
-    },
+    
 ];

@@ -10,7 +10,7 @@ export function Archive({ project }: { project: ArchivedProject }) {
     return (
         <div className="flex flex-col gap-2">
             {project.isRedacted ? (
-                <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-48 w-full mb-1">
+                <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-48 w-full mb-1 cursor-not-allowed">
                     [IMAGE EXPUNGED]
                 </div>
             ) : (
@@ -27,7 +27,7 @@ export function Archive({ project }: { project: ArchivedProject }) {
 
             {project.isRedacted ? (
                 <>
-                    <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-6 mt-1">
+                    <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-6 mt-1 cursor-not-allowed">
                         [CLASSIFIED TITLE]
                     </div>
                     <Redacted characters={300} />
@@ -40,7 +40,7 @@ export function Archive({ project }: { project: ArchivedProject }) {
             )}
 
             {project.isRedacted ? (
-                <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-6 w-2/3 mt-1">
+                <div className="bg-redaction opacity-95 text-background text-center flex justify-center items-center tracking-widest h-6 w-2/3 mt-1 cursor-not-allowed">
                     [ACCESS RESTRICTED]
                 </div>
             ) : (

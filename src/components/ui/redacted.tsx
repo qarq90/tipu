@@ -6,7 +6,7 @@ export function Redacted({ characters }: Readonly<{ characters: number }>) {
                 .map((_, i) => (
                     <span
                         key={i}
-                        className="inline-block bg-redaction opacity-95 align-middle"
+                        className="inline-block bg-redaction opacity-95 align-middle cursor-not-allowed"
                         style={{ width: "0.6ch", height: "1.2em" }}
                     />
                 ))}
