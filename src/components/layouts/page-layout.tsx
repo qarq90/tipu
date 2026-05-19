@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { Navbar } from "../navbar";
 import { Unredacted } from "../ui/unredacted";
+import { Seperator } from "../ui/seperator";
 
 export function PageLayout({
     children,
@@ -35,7 +36,8 @@ export function PageLayout({
                 </div>
                 <div className="flex-1 flex flex-col gap-4 py-4 px-2">
                     {children}
-                    <div className="uppercase flex flex-row justify-between border-t-4 pt-4 border-foreground/70">
+                    <Seperator className="-px-2" />
+                    <div className="uppercase flex flex-row justify-between border-foreground/70">
                         <Unredacted>File: 17D01O05B-24R51L66N</Unredacted>
                         <Unredacted>{`Page: ${pageName}`}</Unredacted>
                     </div>

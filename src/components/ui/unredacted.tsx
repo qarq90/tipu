@@ -33,7 +33,7 @@ export function Unredacted({ children, className }: UnredactedProps) {
                     WebkitTextFillColor: "transparent",
                 }}
             >
-                {text}&nbsp;
+                {text}
             </span>
         </span>
     );

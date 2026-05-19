@@ -1,3 +1,4 @@
+import { Seperator } from "./ui/seperator";
 import { Unredacted } from "./ui/unredacted";
 
 export function Quotes({
@@ -6,12 +7,15 @@ export function Quotes({
     quotes: ReadonlyArray<{ quote: string; by: string }>;
 }) {
     return (
-        <div className="flex flex-col gap-4 text-center border border-foreground py-4 px-2 mt-4">
-            {quotes.map((quote, index) => (
-                <Unredacted key={index}>
-                    {`${quote.quote} - ${quote.by}`}
-                </Unredacted>
-            ))}
-        </div>
+        <>
+            <Seperator />
+            <div className="flex flex-col gap-4 text-center px-2">
+                {quotes.map((quote, index) => (
+                    <Unredacted key={index}>
+                        {`${quote.quote} - ${quote.by}`}
+                    </Unredacted>
+                ))}
+            </div>
+        </>
     );
 }

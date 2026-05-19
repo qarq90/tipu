@@ -54,7 +54,7 @@ export const archivedProjects: ArchivedProject[] = [
 
 export const archivesQuotes: Quote[] = [
     {
-        quote: "A Man's dream, never ends.",
+        quote: "People's dreams... never end!",
         by: "Marshell D. Teach",
     },
     {

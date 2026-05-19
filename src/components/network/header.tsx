@@ -1,3 +1,4 @@
+import { Seperator } from "../ui/seperator";
 import { Unredacted } from "../ui/unredacted";
 
 export function NetworkHeader() {
@@ -10,7 +11,9 @@ export function NetworkHeader() {
                 <Unredacted>AUTH CODE: 3F29-XQ91-ZL7A-F81C</Unredacted>
             </div>
 
-            <div className="flex flex-col gap-y-4 border border-foreground p-4 px-2 my-4">
+            <Seperator />
+
+            <div className="flex flex-col gap-y-4 px-2">
                 <Unredacted className="text-2xl tracking-widest">
                     Communication Protocol:
                 </Unredacted>
@@ -21,6 +24,8 @@ export function NetworkHeader() {
                 <Unredacted>UNAUTHORIZED DISCLOSURE IS PROHIBITED</Unredacted>
             </div>
 
+            <Seperator />
+        
             <div className="flex flex-col text-center my-4">
                 <Unredacted>
                     Final secure channels for operative contact — monitored and

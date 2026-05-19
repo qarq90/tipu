@@ -1,10 +1,11 @@
 import { Redacted } from "../ui/redacted";
+import { Seperator } from "../ui/seperator";
 import { Unredacted } from "../ui/unredacted";
 
 export function ArchivesHeader() {
     return (
         <>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-1 my-4">
+            <div className="grid grid-cols-2 gap-y-1 my-4">
                 <Unredacted>CLASSIFIED ARCHIVES DIVISION</Unredacted>
                 <div className="text-right">
                     <Unredacted>CLASSIFICATION: TOP SECRET</Unredacted>
@@ -30,17 +31,22 @@ export function ArchivesHeader() {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center flex-col gap-2 mb-4">
-                <Unredacted className="underline">
+            <Seperator />
+
+            <div className="flex justify-center items-center flex-col gap-2">
+                <Unredacted>
                     CREATIVE ARCHIVES DIVISION - CREATIVE INTERFACE AGENCY
                 </Unredacted>
+
                 <Unredacted>
                     THIS DOCUMENT CONTAINS SENSITIVE INFORMATION UNAUTHORIZED
                 </Unredacted>
                 <Unredacted>DISCLOSURE IS PROHIBITED</Unredacted>
             </div>
 
-            <div className="flex flex-col gap-4 border border-foreground p-4 px-2 mb-4">
+            <Seperator />
+
+            <div className="flex flex-col gap-4 mb-4">
                 <Unredacted className="text-2xl tracking-widest">
                     MISSION BRIEFING:
                 </Unredacted>
